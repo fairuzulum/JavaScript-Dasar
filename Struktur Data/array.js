@@ -1,6 +1,9 @@
 // Array
 let color= ['Merah','Kuning','Hijau','Biru'];
 
+// Menghitung Panjang Array
+console.log(color.length);
+
 // Menampilkan Array
 console.log(color);
 
