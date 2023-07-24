@@ -10,3 +10,12 @@ function introduce({displayName, fullName }){
 }
 
 introduce(user);
+
+
+// Memberikan nilai default pada parameter
+function exsponentFormula(baseNumber, exponent = 2){
+    const result = baseNumber ** exponent;
+    console.log(`${baseNumber}^${exponent} = ${result}`);
+}
+
+exsponentFormula(3);
