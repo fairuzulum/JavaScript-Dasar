@@ -9,3 +9,21 @@ function init(){
     greet();
 }
 init();
+
+// Menggunakan return
+function newInit(){
+    const name = "Fairuz Ulum";
+    
+    function greet(){
+        console.log(`Morning ${name}`);
+    }
+
+    return greet;
+}
+
+const myFunction = newInit();
+myFunction();
+
+
+
+
