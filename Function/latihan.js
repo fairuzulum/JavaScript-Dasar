@@ -22,6 +22,7 @@
 
 // Tulis kode di bawah ini
 
+// SOAl 1
 function minimal(a,b){
     let minimum = a <= b ? a : b;
     console.log(`${minimum}`);
@@ -30,6 +31,24 @@ function minimal(a,b){
 minimal(1, 4);
 minimal(3, 2);
 minimal(3, 3);
+
+// SOAL 2
+
+function findIndex(parameter1, parameter2){
+    const array = parameter1;
+    const number = parameter2;
+    if(array.indexOf(number) == undefined){
+        console.log(-1);
+    } else{
+        console.log(array.indexOf(number));
+    }
+}
+
+findIndex([1, 2, 3, 4, 5], 3);
+findIndex([1, 2, 3, 4, 5], 6);
+findIndex([1, 2, 3, 4, 5], 5);
+
+// PAKE RETURN KALO BISA< TAPI KARENA GUA MALES LANGSUNG CONSOLE.LOG KWKWKWKWKW
 
 
 
